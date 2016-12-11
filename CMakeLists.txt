@@ -25,6 +25,7 @@ add_executable(endswithlf ch2/endswithlf.c)
 add_executable(ch2ex1 ch2/ex/ch2ex1.c)
 add_executable(ch2ex6 ch2/ex/ch2ex6.c)
 add_executable(ch2proj5 ch2/proj/ch2proj5.c)
+
 add_executable(upc ch4/upc.c)
 add_executable(tassign ch4/tassign.c)
 add_executable(tincdec ch4/tincdec.c)
@@ -33,5 +34,13 @@ add_executable(subexpr ch4/subexpr.c)
 add_executable(remainder ch4/remainder.c)
 add_executable(ch4ex1 ch4/ex/ch4ex1.c)
 add_executable(ch4proj1 ch4/proj/ch4proj1.cpp)
+
 add_executable(broker ch5/broker.c)
 add_executable(date ch5/date.c)
+
+add_executable(twhile ch6/twhile.c)
+add_executable(square ch6/square.c)
+add_executable(sum ch6/sum.c)
+add_executable(numdigits ch6/numdigits.c)
+
+add_executable(checking ch6/checking.c)
