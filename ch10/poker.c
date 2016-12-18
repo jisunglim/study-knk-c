@@ -32,14 +32,11 @@ void print_result(void);
  */
 int main(void)
 {
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wmissing-noreturn"
   for (;;) {
     read_cards();
     analyze_hand();
     print_result();
   }
-#pragma clang diagnostic pop
 }
 
 void read_cards(void)
