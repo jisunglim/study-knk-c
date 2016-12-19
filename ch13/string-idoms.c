@@ -13,14 +13,6 @@ char *strcat(char *s1, const char *s2);
 
 int main(void)
 {
-  char a[] = "String";
-  char b[] = "String";
-  char (*p)[] = &a;
-
-  char *r = a;
-  char *s = b;
-  char *(*q)[] = &{r, s};
-
   return 0;
 }
 
