@@ -5,3 +5,10 @@
 //
 // Copyright (c) 2016 Jay J. Lim. All right reserved.
 
+#include "token.h"
+
+bool is_digit(int c)
+{
+  return c >= '0' && c <= '9';
+}
+

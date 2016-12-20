@@ -9,10 +9,14 @@
 #errer This header requires a Standard C compiler
 #endif
 
-#ifndef STACK_H //
-#define STACK_H // Protecting header files against multiple inclusion
+#ifndef STUDY_KNK_C_STACK_H //
+#define STUDY_KNK_C_STACK_H // Protecting header files against multiple inclusion
 
 #include <stdbool.h>
+
+#define STACK_SIZE 100
+extern int contents[];
+extern int top;
 
 void make_empty(void);
 bool is_empty(void);
