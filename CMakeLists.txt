@@ -108,3 +108,6 @@ add_executable(part-struct-2 ch16/part-struct-2.c)
 add_executable(lvalue ch16/lvalue.c)
 add_executable(typedefstruct ch16/typedefstruct.c)
 add_executable(inventory ch16/inven-prog/inventory.c ch16/inven-prog/readline.c)
+
+add_executable(union-ex ch16/union-ex.c)
+add_executable(union-ex-2 ch16/union-ex-2.c)
