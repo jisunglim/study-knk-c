@@ -114,3 +114,5 @@ add_executable(union-ex-2 ch16/union-ex-2.c)
 add_executable(array-m-allock ch17/array-m-allock.c)
 add_executable(remind2 ch17/remind2.c)
 add_executable(linked-list ch17/linked-list/linked-list.c)
+
+add_executable(inventory2 ch17/inven-prog/inventory2.c ch17/inven-prog/readline.c)
