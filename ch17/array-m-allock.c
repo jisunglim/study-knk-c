@@ -37,7 +37,7 @@ int main(void)
   a = b;
 
   for (i = 0; i < n; i++)
-    printf("%2d::%-2d ", a[i], b[i]);
+    printf("%1d%1d ", a[i], b[i]);
 
 
   return 0;
