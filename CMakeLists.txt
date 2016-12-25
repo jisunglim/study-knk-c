@@ -116,3 +116,5 @@ add_executable(remind2 ch17/remind2.c)
 add_executable(linked-list ch17/linked-list/linked-list.c)
 
 add_executable(inventory2 ch17/inven-prog/inventory2.c ch17/inven-prog/readline.c)
+add_executable(linked-list-2 ch17/linked-list/linked-list-2.c)
+add_executable(func-pointer ch17/func-pointer.c)
