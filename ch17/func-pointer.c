@@ -16,6 +16,13 @@ double sin(double d);
 
 int main(void)
 {
+  double (*sin_fp) (double);
+  sin_fp = sin;
+
+  printf("%lf\n", sin_fp(MY_PI/2));
+  printf("%lf\n", (*sin_fp)(MY_PI/2));
+
+
   double integ_x_square = integral(x_square, 0.0, 3.0);
   printf("integ_x_square : %lf\n", integ_x_square);
 
@@ -28,7 +35,7 @@ int main(void)
 double integral(double (*f)(double), double a, double b)
 {
   double integral_sum = 0.0;
-  double interval = 0.00000001;
+  double interval = 0.0000001;
   long n = (long) ((b - a) / interval);
 
   for (long i = 1L; i <= n; i++) {
