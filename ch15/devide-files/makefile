@@ -9,4 +9,3 @@ word.o: word.c word.h
 
 line.o: line.c line.h
 	gcc -c -o output/line.o line.c
-
