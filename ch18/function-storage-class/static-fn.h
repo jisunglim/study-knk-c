@@ -1,5 +1,5 @@
 #ifndef __STDC__
-#errer This header requires a Standard C compiler
+#error This header requires a Standard C compiler
 #endif /* __STDC__ */
 
 #ifndef STUDY_KNK_C_STATIC_FN
